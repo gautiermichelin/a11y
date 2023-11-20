@@ -1,0 +1,202 @@
+/* FONT FAMILIES */
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@font-face {
+    font-family: "FS Me";
+    font-display: swap;
+    src: url(../fonts/FSMe.woff2) format("woff2")
+}
+
+body.fontfamily_opendyslexic,
+body.fontfamily_opendyslexic H1,
+body.fontfamily_opendyslexic H2,
+body.fontfamily_opendyslexic H3,
+body.fontfamily_opendyslexic H4,
+body.fontfamily_opendyslexic H5,
+body.fontfamily_opendyslexic H6,
+body.fontfamily_opendyslexic button {
+  font-family: "Open-Dyslexic", sans-serif;
+}
+body.fontfamily_opensans,
+body.fontfamily_opensans H1,
+body.fontfamily_opensans H2,
+body.fontfamily_opensans H3,
+body.fontfamily_opensans H4,
+body.fontfamily_opensans H5,
+body.fontfamily_opensans H6,
+body.fontfamily_opensans button {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SKIP MENU */
+.skip-menu ul.menu {
+	margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.skip-menu ul.menu>li {
+    padding: 0;
+    margin: 0;
+}
+.skip-menu ul.menu>li>a {
+	color: #fff;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    right: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border: none;
+    line-height: 1.5;
+}
+
+.link-underline a {
+	text-decoration: underline !important;
+}
+
+/* UTILITIES */
+
+body.font-readable {
+    letter-spacing: .12em;
+    word-spacing: 0.16em;
+}
+body.fsize110 {
+	font-size:77%;
+}
+body.fsize120 {
+	font-size:84%;
+}	
+body.fsize130 {
+	font-size:91%;
+}	
+body.fsize90 {
+	font-size:69%;
+}	
+body.fsize80 {
+	font-size:62%;
+}	
+body.fsize70 {
+	font-size:55%;
+}
+@media only screen and (min-width: 1132px) {
+	body,p {
+		font-size:100%;
+	}
+	body.font-readable, body.font-readable p {
+		letter-spacing: .12em;
+		word-spacing: 0.16em;
+	}
+	body.fsize110, body.fsize110 p {
+		font-size:110%;
+	}
+	body.fsize120, body.fsize120 p {
+		font-size:120%;
+	}	
+	body.fsize130, body.fsize130 p {
+		font-size:130%;
+	}	
+	body.fsize90, body.fsize90 p {
+		font-size:90%;
+	}	
+	body.fsize80, body.fsize80 p {
+		font-size:80%;
+	}	
+	body.fsize70, body.fsize70 p {
+		font-size:70%;
+	}
+}	
+
+/* ACCESSIBILITY MENU */
+
+.open-accessibility ul.accessibility {
+	list-style-type: none;
+	margin: 0;
+}
+.open-accessibility li {
+	display: inline-block;
+	margin:6px;
+}
+.open-accessibility li.fontfamily-label,
+.open-accessibility li.resizer-label {
+	display: block;
+}
+.block-accessibility-wrapper {
+	position:fixed;
+	top:67px;
+	height:100px;
+	z-index:10;
+	width:100%;
+}
+.open-accessibility {
+	padding-left:50px;
+	background:white;
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+	width:100vw;
+	position:relative;
+	left:-100vw;
+}
+.accessibility-menu-open .open-accessibility {
+	left:0;
+	position: initial;
+}
+.open-accessibility ul {
+	margin:0;
+}
+
+.open-accessibility ul {
+	padding-inline-start:0;
+}
+
+@media only screen and (min-width: 650px) {
+	.open-accessibility {
+		padding-left: 20px;
+	}
+	.open-accessibility ul {
+		padding-inline-start:50px;
+	}
+	.open-accessibility ul:before {
+			content:attr(aria-label);
+			font-size:100%;
+			font-weight:bold;
+			margin-left:-15px;
+	}
+}
+.open-accessibility svg {
+	height:25px;
+	position:relative;
+	top:3px;
+    Vertical-align: text-bottom;
+}
+.open-accessibility button {
+	line-height:20px;
+}
+a#accessibility_settings_open_close {
+	position:fixed;
+	left:-2px;
+	top:90px;
+	border-top:1px solid gray;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	padding:10px;
+	border-radius: 4px;
+	background:white;
+}
+button.font-settings span {
+	line-height: 25px;
+	display: inline-block;
+}
+
+/* IMPROVE LINK CONTRASTS */
+
+
+@media only screen and (min-width: 1132px) {
+	.design-archives .viewall a, .design-archives a::before {
+		background: rgba(255,255,255,0.7);
+		text-decoration: none;
+	}
+	.design-archives .viewall a:hover, .design-archives a:hover::before {
+    	background-color: rgba(255,255,255,0.9);
+	}
+}
