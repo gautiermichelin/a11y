@@ -7,4 +7,5 @@ It should bring these functionalities :
 - ability to toggle the font family, to use at least one readable "sans" font, actually Open Sans (that could change in the future) ; and at least one specific font, OpenDyslexic
 - this menu should insert at the top of the page, expanding full width (to be sure we don't break the current design of the page)
 
-
+Screen capture : 
+![a11y icon](https://github.com/gautiermichelin/a11y/blob/main/menu_sample.png?raw=true) 
