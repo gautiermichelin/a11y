@@ -19,8 +19,8 @@ You need to import the 2 libs Cookies js and jQuery :
 ```
 Then you can import a11y-helper.js and a11y-helper.css :
 ```html
-<script src="/path/to/a11_helper.js"></script>
-<link rel="stylesheet" href="/path/to/a11_helper.css">
+<script src="/path/to/a11y_helper.js"></script>
+<link rel="stylesheet" href="/path/to/a11y_helper.css">
 ```
 
 ## Fix your CSS
