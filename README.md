@@ -12,6 +12,17 @@ Screen capture :
 
 ## How to use it
 
+You need to import the 2 libs Cookies js and jQuery :
+```html
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+Then you can import a11y-helper.js and a11y-helper.css :
+```html
+<script src="/path/to/a11_helper.js"></script>
+<link rel="stylesheet" href="/path/to/a11_helper.css">
+```
+
 ## Fix your CSS
 
 Sometimes you have classes that "stick" on the top of the screen, for example a navbar or a sticky header.
