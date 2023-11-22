@@ -1,4 +1,4 @@
-# !(a11y icon)[https://github.com/gautiermichelin/a11y/blob/main/a11y_icon.png?raw=true] a11y-menu
+# ![a11y icon](https://github.com/gautiermichelin/a11y/blob/main/a11y_icon.png?raw=true) a11y-menu
 
 The goal of this project is to bring to life in a single JS file an accessibility file, self loading.
 It should bring these functionalities :
