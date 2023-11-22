@@ -7,7 +7,7 @@ let fonts = {
 
 function setFont(fnt) {
     Cookies.set('fontfamily', fonts['.' + fnt], { expires: 7, path: cookie_path.cookiePath });
-    jQuery('body').removeClass(Object.values(fonts).join(" ")).addClass(fonts['.' + fnt]);
+    jQuery('html').removeClass(Object.values(fonts).join(" ")).addClass(fonts['.' + fnt]);
 }
 
 
