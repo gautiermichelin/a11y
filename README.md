@@ -20,8 +20,15 @@ You need to import the 2 libs Cookies js and jQuery :
 Then you can import a11y-helper.js and a11y-helper.css :
 ```html
 <script src="/path/to/a11y_helper.js"></script>
-<link rel="stylesheet" href="/path/to/a11y_helper.css">
+<link rel="stylesheet" href="/path/to/a11y_helper.css" />
 ```
+
+or use the CDN :
+```html
+<script src="https://cdn.jsdelivr.net/gh/gautiermichelin/a11y@master/a11y_helper.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gautiermichelin/a11y@master/a11y_helper.css" />
+```
+
 
 ## Fix your CSS
 
