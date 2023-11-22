@@ -9,7 +9,19 @@ html.fontfamily_opendyslexic body H3,
 html.fontfamily_opendyslexic body H4,
 html.fontfamily_opendyslexic body H5,
 html.fontfamily_opendyslexic body H6,
-html.fontfamily_opendyslexic body button {
+html.fontfamily_opendyslexic body button,
+html.fontfamily_opendyslexic body a,
+html.fontfamily_opendyslexic body li,
+html.fontfamily_opendyslexic body span,
+html.fontfamily_opendyslexic body p,
+html.fontfamily_opendyslexic body div,
+html.fontfamily_opendyslexic body footer,
+html.fontfamily_opendyslexic body header,
+html.fontfamily_opendyslexic body nav,
+html.fontfamily_opendyslexic body input,
+html.fontfamily_opendyslexic body textarea,
+html.fontfamily_opendyslexic body select,
+html.fontfamily_opendyslexic body label {
   font-family: "Open-Dyslexic", sans-serif !important;
 }
 html.fontfamily_opensans body,
@@ -19,7 +31,21 @@ html.fontfamily_opensans body H3,
 html.fontfamily_opensans body H4,
 html.fontfamily_opensans body H5,
 html.fontfamily_opensans body H6,
-html.fontfamily_opensans body button {
+html.fontfamily_opensans body button,
+html.fontfamily_opensans body a,
+html.fontfamily_opensans body li,
+html.fontfamily_opensans body span,
+html.fontfamily_opensans body p,
+html.fontfamily_opensans body div,
+html.fontfamily_opensans body footer,
+html.fontfamily_opensans body header,
+html.fontfamily_opensans body nav,
+html.fontfamily_opensans body input,
+html.fontfamily_opensans body textarea,
+html.fontfamily_opensans body select,
+html.fontfamily_opensans body label
+
+ {
   font-family: "Open Sans", sans-serif !important;
 }
 
