@@ -9,3 +9,36 @@ It should bring these functionalities :
 
 Screen capture : 
 ![screen capture of the accessibility menu](https://github.com/gautiermichelin/a11y/blob/main/menu_sample.png?raw=true) 
+
+## How to use it
+
+## Fix your CSS
+
+Sometimes you have classes that "stick" on the top of the screen, for example a navbar or a sticky header.
+You can fix this by adding a class to the element that you want to fix, and add this class to the CSS file.
+
+This is the actual CSS for the navbar :
+```css
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+```
+
+```css
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.accessibility-menu-open .fixed-top {
+  top: 100px;
+}
+``` 
+
+

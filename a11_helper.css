@@ -1,11 +1,6 @@
 /* FONT FAMILIES */
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-@font-face {
-    font-family: "FS Me";
-    font-display: swap;
-    src: url(../fonts/FSMe.woff2) format("woff2")
-}
 
 body.fontfamily_opendyslexic,
 body.fontfamily_opendyslexic H1,
@@ -123,23 +118,22 @@ body.fsize70 {
 }
 .block-accessibility-wrapper {
 	position:fixed;
-	top:67px;
+	top:0;
 	height:100px;
-	z-index:10;
+	z-index:99999;
 	width:100%;
 }
 .open-accessibility {
-	padding-left:50px;
-	background:white;
-	border-top:1px solid gray;
-	border-bottom: 1px solid gray;
-	width:100vw;
-	position:relative;
-	left:-100vw;
+	display: none;
 }
 .accessibility-menu-open .open-accessibility {
-	left:0;
-	position: initial;
+	padding-left:50px;
+	background:white;
+	width:100vw;
+	position:relative;
+	display: block;
+	border-bottom: 1px solid gray;
+	height: 100px;
 }
 .open-accessibility ul {
 	margin:0;
@@ -182,6 +176,7 @@ a#accessibility_settings_open_close {
 	padding:10px;
 	border-radius: 4px;
 	background:white;
+	z-index: 10;
 }
 button.font-settings span {
 	line-height: 25px;
@@ -199,4 +194,8 @@ button.font-settings span {
 	.design-archives .viewall a:hover, .design-archives a:hover::before {
     	background-color: rgba(255,255,255,0.9);
 	}
+}
+
+body.accessibility-menu-open {
+	margin-top:100px;
 }
