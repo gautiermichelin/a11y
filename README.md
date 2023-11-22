@@ -64,3 +64,11 @@ Now, you need to make it go down for 100px to have enough space for the top acce
 - [ ] remove jQuery dependency
 - [ ] inject the CSS within the JS to have a single file
 - [ ] embed cookies lib and use the no-conflict mode : https://github.com/js-cookie/js-cookie#namespace-conflicts
+
+## Github pages
+
+*Project home page*
+https://gautiermichelin.github.io/a11y
+
+*Example page*
+https://gautiermichelin.github.io/a11y/example/
