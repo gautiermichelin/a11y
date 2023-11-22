@@ -27,6 +27,7 @@ This is the actual CSS for the navbar :
   z-index: 1030;
 }
 ```
+Now, you need to make it go down for 100px to have enough space for the top accessibility menu.
 
 ```css
 .fixed-top {
