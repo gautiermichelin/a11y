@@ -67,8 +67,10 @@ Now, you need to make it go down for 100px to have enough space for the top acce
 
 ## Github pages
 
-*Project home page*
+**Project home page**
+
 https://gautiermichelin.github.io/a11y
 
-*Example page*
+**Example page**
+
 https://gautiermichelin.github.io/a11y/example/
