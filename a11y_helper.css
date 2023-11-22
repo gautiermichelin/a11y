@@ -2,25 +2,25 @@
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-html.fontfamily_opendyslexic,
-html.fontfamily_opendyslexic H1,
-html.fontfamily_opendyslexic H2,
-html.fontfamily_opendyslexic H3,
-html.fontfamily_opendyslexic H4,
-html.fontfamily_opendyslexic H5,
-html.fontfamily_opendyslexic H6,
-html.fontfamily_opendyslexic button {
-  font-family: "Open-Dyslexic", sans-serif;
+html.fontfamily_opendyslexic body,
+html.fontfamily_opendyslexic body H1,
+html.fontfamily_opendyslexic body H2,
+html.fontfamily_opendyslexic body H3,
+html.fontfamily_opendyslexic body H4,
+html.fontfamily_opendyslexic body H5,
+html.fontfamily_opendyslexic body H6,
+html.fontfamily_opendyslexic body button {
+  font-family: "Open-Dyslexic", sans-serif !important;
 }
-html.fontfamily_opensans,
-html.fontfamily_opensans H1,
-html.fontfamily_opensans H2,
-html.fontfamily_opensans H3,
-html.fontfamily_opensans H4,
-html.fontfamily_opensans H5,
-html.fontfamily_opensans H6,
-html.fontfamily_opensans button {
-  font-family: "Open Sans", sans-serif;
+html.fontfamily_opensans body,
+html.fontfamily_opensans body H1,
+html.fontfamily_opensans body H2,
+html.fontfamily_opensans body H3,
+html.fontfamily_opensans body H4,
+html.fontfamily_opensans body H5,
+html.fontfamily_opensans body H6,
+html.fontfamily_opensans body button {
+  font-family: "Open Sans", sans-serif !important;
 }
 
 /* SKIP MENU */
