@@ -8,4 +8,4 @@ It should bring these functionalities :
 - this menu should insert at the top of the page, expanding full width (to be sure we don't break the current design of the page)
 
 Screen capture : 
-![a11y icon](https://github.com/gautiermichelin/a11y/blob/main/menu_sample.png?raw=true) 
+![screen capture of the accessibility menu](https://github.com/gautiermichelin/a11y/blob/main/menu_sample.png?raw=true) 
