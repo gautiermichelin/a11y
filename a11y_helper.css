@@ -78,58 +78,75 @@ html.fontfamily_opensans body label
 
 /* UTILITIES */
 
-html.font-readable {
+html.font-readable,
+html.font-readable body {
     letter-spacing: .12em;
     word-spacing: 0.16em;
 }
-html.fsize110 {
+html.fsize110,
+html.fsize110 body {
 	font-size:110%;
 }
-html.fsize100 {
+html.fsize100,
+html.fsize100 body {
 	font-size:100%;
 }
-html.fsize120 {
+html.fsize120,
+html.fsize120 body {
 	font-size:120%;
 }	
-html.fsize130 {
+html.fsize130,
+html.fsize130 body {
 	font-size:130%;
 }	
-html.fsize90 {
+html.fsize90,
+html.fsize90 body {
 	font-size:90%;
 }	
-html.fsize80 {
+html.fsize80,
+html.fsize80 body {
 	font-size:80%;
 }	
-html.fsize70 {
+html.fsize70,
+html.fsize70 body {
 	font-size:70%;
 }
+
 @media only screen and (min-width: 1132px) {
 	html,body,p {
 		font-size:100%;
 	}
-	html.font-readable, html.font-readable p {
+	html.font-readable, html.font-readable p,
+	html.font-readable body, html.font-readable body p {
 		letter-spacing: .12em;
 		word-spacing: 0.16em;
 	}
-	html.fsize100, html.fsize100 p {
+	html.fsize100, html.fsize100 p,
+	html.fsize100 body, html.fsize100 body p {
 		font-size:100%;
 	}
-	html.fsize110, html.fsize110 p {
+	html.fsize110, html.fsize110 p,
+	html.fsize110 body, html.fsize110 body p {
 		font-size:110%;
 	}
-	html.fsize120, html.fsize120 p {
+	html.fsize120, html.fsize120 p,
+	html.fsize120 body, html.fsize120 body p {
 		font-size:120%;
 	}	
-	html.fsize130, html.fsize130 p {
+	html.fsize130, html.fsize130 p,
+	html.fsize130 body, html.fsize130 body p {
 		font-size:130%;
 	}	
-	html.fsize90, html.fsize90 p {
+	html.fsize90, html.fsize90 p,
+	html.fsize90 body, html.fsize90 body p {
 		font-size:90%;
 	}	
-	html.fsize80, html.fsize80 p {
+	html.fsize80, html.fsize80 p,
+	html.fsize80 body, html.fsize80 body p {
 		font-size:80%;
 	}	
-	html.fsize70, html.fsize70 p {
+	html.fsize70, html.fsize70 p,
+	html.fsize70 body, html.fsize70 body p {
 		font-size:70%;
 	}
 }	
