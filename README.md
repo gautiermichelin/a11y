@@ -69,8 +69,8 @@ Now, you need to make it go down for 100px to have enough space for the top acce
 
 **Project home page**
 
-https://gautiermichelin.github.io/a11y
+[https://gautiermichelin.github.io/a11y](https://gautiermichelin.github.io/a11y)
 
 **Example page**
 
-https://gautiermichelin.github.io/a11y/example/
+[https://gautiermichelin.github.io/a11y/example/](https://gautiermichelin.github.io/a11y/example/)
