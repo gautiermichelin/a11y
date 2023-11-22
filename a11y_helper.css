@@ -2,24 +2,24 @@
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-body.fontfamily_opendyslexic,
-body.fontfamily_opendyslexic H1,
-body.fontfamily_opendyslexic H2,
-body.fontfamily_opendyslexic H3,
-body.fontfamily_opendyslexic H4,
-body.fontfamily_opendyslexic H5,
-body.fontfamily_opendyslexic H6,
-body.fontfamily_opendyslexic button {
+html.fontfamily_opendyslexic,
+html.fontfamily_opendyslexic H1,
+html.fontfamily_opendyslexic H2,
+html.fontfamily_opendyslexic H3,
+html.fontfamily_opendyslexic H4,
+html.fontfamily_opendyslexic H5,
+html.fontfamily_opendyslexic H6,
+html.fontfamily_opendyslexic button {
   font-family: "Open-Dyslexic", sans-serif;
 }
-body.fontfamily_opensans,
-body.fontfamily_opensans H1,
-body.fontfamily_opensans H2,
-body.fontfamily_opensans H3,
-body.fontfamily_opensans H4,
-body.fontfamily_opensans H5,
-body.fontfamily_opensans H6,
-body.fontfamily_opensans button {
+html.fontfamily_opensans,
+html.fontfamily_opensans H1,
+html.fontfamily_opensans H2,
+html.fontfamily_opensans H3,
+html.fontfamily_opensans H4,
+html.fontfamily_opensans H5,
+html.fontfamily_opensans H6,
+html.fontfamily_opensans button {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -52,52 +52,58 @@ body.fontfamily_opensans button {
 
 /* UTILITIES */
 
-body.font-readable {
+html.font-readable {
     letter-spacing: .12em;
     word-spacing: 0.16em;
 }
-body.fsize110 {
-	font-size:77%;
+html.fsize110 {
+	font-size:110%;
 }
-body.fsize120 {
-	font-size:84%;
+html.fsize100 {
+	font-size:100%;
+}
+html.fsize120 {
+	font-size:120%;
 }	
-body.fsize130 {
-	font-size:91%;
+html.fsize130 {
+	font-size:130%;
 }	
-body.fsize90 {
-	font-size:69%;
+html.fsize90 {
+	font-size:90%;
 }	
-body.fsize80 {
-	font-size:62%;
+html.fsize80 {
+	font-size:80%;
 }	
-body.fsize70 {
-	font-size:55%;
+html.fsize70 {
+	font-size:70%;
 }
 @media only screen and (min-width: 1132px) {
-	body,p {
+	html,body,p {
 		font-size:100%;
 	}
-	body.font-readable, body.font-readable p {
+	html.font-readable, html.font-readable p {
 		letter-spacing: .12em;
 		word-spacing: 0.16em;
 	}
-	body.fsize110, body.fsize110 p {
+	html.fsize100, html.fsize100 p {
+		font-size:100%;
+	}
+	html.fsize110, html.fsize110 p {
 		font-size:110%;
 	}
-	body.fsize120, body.fsize120 p {
+	html.fsize120, html.fsize120 p {
 		font-size:120%;
 	}	
-	body.fsize130, body.fsize130 p {
+	html.fsize130, html.fsize130 p {
 		font-size:130%;
 	}	
-	body.fsize90, body.fsize90 p {
+	html.fsize90, html.fsize90 p {
 		font-size:90%;
 	}	
-	body.fsize80, body.fsize80 p {
+	html.fsize80, html.fsize80 p {
 		font-size:80%;
 	}	
-	body.fsize70, body.fsize70 p {
+	html.fsize70, html.fsize70 p {
 		font-size:70%;
 	}
 }	
@@ -196,6 +202,6 @@ button.font-settings span {
 	}
 }
 
-body.accessibility-menu-open {
+html.accessibility-menu-open {
 	margin-top:100px;
 }

@@ -11044,3 +11044,7 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.accessibility-menu-open .fixed-top {
+	top: 100px;
+}
